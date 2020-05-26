@@ -1,1 +1,55 @@
 @import "reset.css";
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 4rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: 'Neucha', cursive;
+}
+
+.nav-panel {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-panel > li > a {
+    margin: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.contacts-anchor {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+.banner-container > img {
+    width: 100%;
+}
+
